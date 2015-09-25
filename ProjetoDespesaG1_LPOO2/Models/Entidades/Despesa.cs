@@ -9,15 +9,15 @@ namespace ProjetoDespesaG1_LPOO2.Models
     {
         public int IdDespesa { get; set; }
         public string LocalDespesa { get; set; }
-        public string DataDespesa { get; set; }
-        public string ValorDespesa { get; set; }
+        public DateTime DataDespesa { get; set; }
+        public decimal ValorDespesa { get; set; }
         public TipoDespesa Tipo { get; set; }
 
         public Despesa()
         {
         }
 
-        public Despesa(int pId, string pLocal, string pData, string pValor, TipoDespesa pTipo)
+        public Despesa(int pId, string pLocal, DateTime pData, decimal pValor, TipoDespesa pTipo)
         {
             IdDespesa = pId;
             LocalDespesa = pLocal;
