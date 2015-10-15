@@ -1,9 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
 using ProjetoDespesaG1_LPOO2.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace ProjetoDespesaG1_LPOO2.Controllers
@@ -25,9 +21,14 @@ namespace ProjetoDespesaG1_LPOO2.Controllers
         [HttpPost]
         public ActionResult Create(TipoDespesa pTipo)
         {
-            tipoRep.Create(pTipo);
+            if (ModelState.IsValid)
+            {
+                tipoRep.Create(pTipo);
 
-            return RedirectToAction("Tipos");
+                return RedirectToAction("Tipos");
+            }
+
+            return View(pTipo);
         }
 
         public ActionResult Update(int Id)
@@ -40,9 +41,14 @@ namespace ProjetoDespesaG1_LPOO2.Controllers
         [HttpPost]
         public ActionResult Update(TipoDespesa pTipo)
         {
-            tipoRep.Update(pTipo);
+            if (ModelState.IsValid)
+            {
+                tipoRep.Update(pTipo);
 
-            return RedirectToAction("Tipos");
+                return RedirectToAction("Tipos");
+            }
+
+            return View(pTipo);
         }
 
         public ActionResult Delete(int Id)

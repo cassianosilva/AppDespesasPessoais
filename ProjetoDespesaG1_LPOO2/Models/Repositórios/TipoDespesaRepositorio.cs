@@ -1,10 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using PeixeiraConnection;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Web;
 
 namespace ProjetoDespesaG1_LPOO2.Models
 {
@@ -34,6 +31,8 @@ namespace ProjetoDespesaG1_LPOO2.Models
                 );
             }
 
+            dr.Dispose();
+
             return tipos;
         }
 
@@ -61,6 +60,8 @@ namespace ProjetoDespesaG1_LPOO2.Models
                 );
             }
 
+            dr.Dispose();
+
             return tipos;
         }
 
@@ -80,6 +81,8 @@ namespace ProjetoDespesaG1_LPOO2.Models
                 idTipo = (int)dr["idTipo"],
                 nomeTipo = (string)dr["nomeTipo"]
             };
+
+            dr.Dispose();
 
             return tipo;
         }

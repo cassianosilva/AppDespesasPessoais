@@ -1,16 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.ComponentModel.DataAnnotations;
 
 namespace ProjetoDespesaG1_LPOO2.Models
 {
     public class Despesa
     {
         public int IdDespesa { get; set; }
+
+        [Required(ErrorMessage = "Você não informou um local.")]
         public string LocalDespesa { get; set; }
+
+        [Required(ErrorMessage = "Você não informou uma data.")]
         public DateTime DataDespesa { get; set; }
+
+        [Required(ErrorMessage = "Você não informou um valor.")]
         public decimal ValorDespesa { get; set; }
+
         public TipoDespesa Tipo { get; set; }
 
         public Despesa()

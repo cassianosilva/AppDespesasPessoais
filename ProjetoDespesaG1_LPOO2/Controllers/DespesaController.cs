@@ -1,8 +1,4 @@
 ﻿using ProjetoDespesaG1_LPOO2.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace ProjetoDespesaG1_LPOO2.Controllers
@@ -27,9 +23,19 @@ namespace ProjetoDespesaG1_LPOO2.Controllers
         [HttpPost]
         public ActionResult Create(Despesa pDespesa)
         {
-            despesaRep.Create(pDespesa);
+            pDespesa.Tipo.nomeTipo = tipoRep.getOne(pDespesa.Tipo.idTipo).nomeTipo;
+            ModelState.Remove("Tipo.nomeTipo");
 
-            return RedirectToAction("Despesas");
+            if (ModelState.IsValid)
+            {
+                despesaRep.Create(pDespesa);
+
+                return RedirectToAction("Despesas");
+            }
+
+            ViewBag.Tipos = tipoRep.getAll();
+
+            return View();
         }
 
         public ActionResult Update(int Id)
@@ -43,9 +49,18 @@ namespace ProjetoDespesaG1_LPOO2.Controllers
         [HttpPost]
         public ActionResult Update(Despesa pDespesa)
         {
-            despesaRep.Update(pDespesa);
+            pDespesa.Tipo.nomeTipo = tipoRep.getOne(pDespesa.Tipo.idTipo).nomeTipo;
+            ModelState.Remove("Tipo.nomeTipo");
 
-            return RedirectToAction("Despesas");
+            if (ModelState.IsValid)
+            {
+                despesaRep.Update(pDespesa);
+
+                return RedirectToAction("Despesas");
+            }
+            ViewBag.Tipos = tipoRep.getAllExceptOne(pDespesa.Tipo.idTipo);
+
+            return View(pDespesa);
         }
 
         public ActionResult Delete(int Id)

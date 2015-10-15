@@ -7,23 +7,25 @@
 
 <form action="/Despesa/Update" method="post">
     <div class="form-group">
-        <label>Id</label>
-        <input class="form-control" readonly="readonly" type="text" name="IdDespesa" value="@Model.IdDespesa" />
+        <input class="form-control" readonly="readonly" type="hidden" name="IdDespesa" value="@Model.IdDespesa" />
     </div>
 
     <div class="form-group">
         <label>Local da despesa</label>
         <input class="form-control" type="text" name="LocalDespesa" value="@Model.LocalDespesa" />
+        @Html.ValidationMessageFor(model => model.LocalDespesa, "", new { @class = "text-danger" })
     </div>
 
     <div class="form-group">
         <label>Data da despesa</label>
-        <input class="form-control" type="date" name="DataDespesa" value="@Model.DataDespesa.ToShortDateString()" />
+        <input class="form-control" type="date" name="DataDespesa" value="@string.Format("{0:yyyy-MM-dd}", Model.DataDespesa)" />
+        @Html.ValidationMessageFor(model => model.DataDespesa, "", new { @class = "text-danger" })
     </div>
 
     <div class="form-group">
         <label>Valor da despesa</label>
         <input class="form-control" type="text" name="ValorDespesa" value="@Model.ValorDespesa" />
+        @Html.ValidationMessageFor(model => model.ValorDespesa, "", new { @class = "text-danger" })
     </div>
 
     <div class="form-group">
