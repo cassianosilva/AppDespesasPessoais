@@ -1,0 +1,10 @@
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaRepository\obj\Debug\ProjDespesaRepository.csprojResolveAssemblyReference.cache
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaRepository\bin\Debug\ProjDespesaRepository.dll
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaRepository\bin\Debug\ProjDespesaRepository.pdb
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaRepository\bin\Debug\MySql.Data.dll
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaRepository\bin\Debug\PeixeiraConnection.dll
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaRepository\bin\Debug\ProjDespesaCore.dll
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaRepository\bin\Debug\PeixeiraConnection.pdb
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaRepository\bin\Debug\ProjDespesaCore.pdb
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaRepository\obj\Debug\ProjDespesaRepository.dll
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaRepository\obj\Debug\ProjDespesaRepository.pdb

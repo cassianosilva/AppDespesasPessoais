@@ -1,9 +1,10 @@
-﻿using System;
+﻿using ProjDespesaCore.Contracts;
+using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ProjetoDespesaG1_LPOO2.Models
+namespace ProjDespesaCore.Entities
 {
-    public class Despesa
+    public class Despesa : IDespesa
     {
         public int IdDespesa { get; set; }
 

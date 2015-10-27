@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using ProjDespesaCore.Contracts;
+using System.ComponentModel.DataAnnotations;
 
-namespace ProjetoDespesaG1_LPOO2.Models
+namespace ProjDespesaCore.Entities
 {
-    public class TipoDespesa
+    public class TipoDespesa : ITipoDespesa
     {
         public int idTipo { get; set; }
 

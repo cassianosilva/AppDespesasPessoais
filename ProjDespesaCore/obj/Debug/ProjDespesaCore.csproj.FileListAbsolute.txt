@@ -1,0 +1,5 @@
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaCore\bin\Debug\ProjDespesaCore.dll
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaCore\bin\Debug\ProjDespesaCore.pdb
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaCore\obj\Debug\ProjDespesaCore.dll
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaCore\obj\Debug\ProjDespesaCore.pdb
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjDespesaCore\obj\Debug\ProjDespesaCore.csprojResolveAssemblyReference.cache

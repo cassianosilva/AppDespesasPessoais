@@ -1,12 +1,14 @@
 ﻿using MySql.Data.MySqlClient;
 using PeixeiraConnection;
+using ProjDespesaCore.Entities;
+using ProjDespesaRepository.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjetoDespesaG1_LPOO2.Models
+namespace ProjDespesaRepository.Repositories
 {
-    public class DespesaRepositorio
+    public class DespesaRepositorio : IDespesaRepository
     {
         Database db = new Database();
         MySqlCommand cmm = new MySqlCommand();

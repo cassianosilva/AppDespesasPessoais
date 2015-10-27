@@ -34,3 +34,7 @@ C:\Users\Note\documents\visual studio 2015\Projects\ProjetoDespesaG1_LPOO2\Proje
 C:\Users\Note\documents\visual studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjetoDespesaG1_LPOO2\obj\Debug\ProjetoDespesaG1_LPOO2.csprojResolveAssemblyReference.cache
 C:\Users\Note\documents\visual studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjetoDespesaG1_LPOO2\obj\Debug\ProjetoDespesaG1_LPOO2.dll
 C:\Users\Note\documents\visual studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjetoDespesaG1_LPOO2\obj\Debug\ProjetoDespesaG1_LPOO2.pdb
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjetoDespesaG1_LPOO2\bin\ProjDespesaCore.dll
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjetoDespesaG1_LPOO2\bin\ProjDespesaRepository.dll
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjetoDespesaG1_LPOO2\bin\ProjDespesaCore.pdb
+C:\Users\Note\Documents\Visual Studio 2015\Projects\ProjetoDespesaG1_LPOO2\ProjetoDespesaG1_LPOO2\bin\ProjDespesaRepository.pdb

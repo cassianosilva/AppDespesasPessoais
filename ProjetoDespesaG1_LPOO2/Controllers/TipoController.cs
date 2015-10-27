@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
-using ProjetoDespesaG1_LPOO2.Models;
+using ProjDespesaCore.Entities;
+using ProjDespesaRepository.Repositories;
 using System.Web.Mvc;
 
 namespace ProjetoDespesaG1_LPOO2.Controllers

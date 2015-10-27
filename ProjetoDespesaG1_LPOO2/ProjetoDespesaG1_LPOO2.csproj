@@ -114,10 +114,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Entidades\Despesa.cs" />
-    <Compile Include="Models\Repositórios\DespesaRepositorio.cs" />
-    <Compile Include="Models\Entidades\TipoDespesa.cs" />
-    <Compile Include="Models\Repositórios\TipoDespesaRepositorio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -146,11 +142,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PeixeiraConnection\PeixeiraConnection\PeixeiraConnection.csproj">
-      <Project>{8c2eb150-885a-42cc-95c3-5ec78845b754}</Project>
-      <Name>PeixeiraConnection</Name>
+    <ProjectReference Include="..\ProjDespesaCore\ProjDespesaCore.csproj">
+      <Project>{5411d21d-9bd2-46c1-8524-12bacc3505da}</Project>
+      <Name>ProjDespesaCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjDespesaRepository\ProjDespesaRepository.csproj">
+      <Project>{c5809b27-27ed-4d0d-b771-94a453a609e8}</Project>
+      <Name>ProjDespesaRepository</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
